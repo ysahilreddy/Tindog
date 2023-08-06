@@ -1,0 +1,279 @@
+body{
+
+font-family: "Montserrat";
+
+
+}
+
+h1{
+font-style: "Montserrat-Black";
+font-weight: 900;
+font-size: 3.5rem;
+line-height: 1.5;
+/* color: white; */
+
+}
+
+#title{
+background-color: #ff4c68;
+color:#fff;
+/* we are addding color directly inorder to ensure if any further we aadd text like subtitle than automatically it gets the properties */
+
+
+}
+.container-fluid{
+padding: 3% 15% 7%;
+
+
+}
+
+
+
+/* navigation section */
+.navbar{
+padding :0 0  4.5rem;
+
+
+
+}
+.navbar-brand{
+ font-size: 2.5rem;
+ font-weight:bold;
+  font-family: "ubuntu";
+}
+.nav-item{
+  font-size: 1.2rem;
+  font-weight: "Montserrat-Thin";
+  padding:0 18px;
+}
+.download-button{
+  margin:5% 3% 5% 0;
+
+
+}
+
+.title-img{
+position: absolute;
+width:20%;
+height:600px;
+transform: translateX(100px) rotate(30deg);
+right: 30%;
+/* z-index: 1; */
+}
+
+
+/* middle section */
+
+#features{
+padding: 7% 15%;
+position: relative;
+/* without applying z index this worked as by default superimposes on top of the img as it comes later as per the course.. */
+background-color: #fff;
+/* z-index: 2; */
+}
+
+
+.circle-check_1{
+
+  color: #ef8172;
+
+  margin: 10px 50px;
+
+}
+.circle-check_1:hover{
+
+  color: #ff4c68;
+}
+
+.bulleye{
+
+   color: #ef8172;;
+
+  margin: 10px 50px;
+
+
+}
+
+.bulleye:hover{
+
+  color: #ff4c68;
+}
+
+.heart{
+
+color: #ef8172;
+size:50%;
+margin: 10px 50px;
+}
+
+.heart:hover{
+
+  color:#ff4c68;
+}
+
+.feature-box{
+text-align:center;
+padding:5%;
+
+
+}
+.h3-head{
+
+font-family: "Montserrat-bold";
+
+
+
+
+}
+
+
+
+
+.highlight{
+  font-weight:300;
+  color: #8f8f8f;
+
+}
+
+/* testimonials */
+
+#testimonials{
+
+
+text-align: center;
+background-color: #ef8172;
+color: #fff;
+
+
+
+
+
+}
+
+.testimonial-title{
+font-family: "Montserrat-Bold";
+font-size:3rem;
+line-height: 1.5;
+font-weight: 900;
+
+
+}
+
+.testimonial-img{
+width:10%;
+
+border-radius: 100%;
+margin:20px;
+
+
+
+}
+#press{
+
+  background-color: #ef8172;
+  text-align:center;
+  padding:3%;
+}
+.press-img{
+
+width:15%;
+margin:20px 20px 50px;
+
+}
+.carousel-item{
+
+padding:7% 15%;
+
+}
+.testimonial-text{
+  font-family: "Montserrat-Bold";
+  font-size:3rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+
+}
+
+
+/* pricing */
+#pricing{
+padding:100px;
+text-align: center;
+
+}
+
+.pricing-card{
+
+padding:3% 2%;
+
+}
+
+@media (max-width: 992px){
+
+#title{
+
+  text-align:center;
+
+}
+
+.title-img{
+
+position: static;
+transform: rotate(0);
+width:50%;
+
+}
+
+
+
+
+
+}
+
+
+
+  /* <!-- Call to Action --> */
+
+#cta{
+background-color: #ff4c68;
+padding:5% 10%  10% 10%;
+text-align: center;
+color: #fff;
+
+
+}
+
+.cta-title{
+
+  font-style: "Montserrat-Black";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+margin:3%;
+
+
+}
+/* footer */
+
+#footer{
+text-align: center;
+padding:7% 15%;
+background-color: #fff;
+
+}
+
+.icon{
+
+margin:5px;
+
+}
+
+.copywright{
+
+font-family: "Montserrat-Thin";
+color:grey;
+
+margin:3%;
+
+}
